@@ -179,16 +179,15 @@ main > section {
     justify-content: center;
     align-items: center;
     /* debug */
-    background-color: black;
+    background-color: #23272A;
     height: 400px;
 }
 
 .riquadro-social {
     width: 21%;
-    /* debug */
+    color: white;
     height: 360px;
-    background-color: darkorchid;
-    border-style: dashed;
+
 }
 
 .info-utili {
@@ -204,7 +203,7 @@ main > section {
     justify-content: center;
     align-items: flex-end;
     /* debug */
-    background-color: black;
+    background-color: #23272A;
     height: 65px;
     margin-top: 2px;
 }
@@ -227,4 +226,7 @@ main > section {
     height: 25px;
     border-style: dashed;
 
+}
+.ita {
+    width: 10%;
 }
