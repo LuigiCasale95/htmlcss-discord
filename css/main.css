@@ -126,10 +126,6 @@ main > section {
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-        /* debug */
-/*     background-color: blue;
-    height: 350px;
-    border-style: dashed; */
 }
 
 .box-img { 
@@ -167,13 +163,16 @@ main > section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    /* debug */
-/*     background-color: green;
-    height: 480px;
-    border-style: dashed; */
 
 }
+.botton-header.blue {
+    margin-top: 20px;
+    background-color: #8FA0E2;
+    color: white;
+    border-radius: 20px;
+    padding: 6px;
+}
+
 /* Finale della pagina / Footer */
 .finale-info {
     display: flex;
