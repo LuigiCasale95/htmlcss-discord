@@ -194,8 +194,6 @@ main > section {
     width: calc(49% / 4);
     /* debug */
     height: 360px;
-    background-color: rgb(204, 124, 50);
-    border-style: dashed;
 
 }
 .fondo-pagina {
@@ -229,4 +227,18 @@ main > section {
 }
 .ita {
     width: 10%;
+}
+
+footer li {
+    list-style-type: none;
+    color: white;
+}
+.lista-info :first-child {
+    color: #808CC0;
+}
+.lista-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
 }
