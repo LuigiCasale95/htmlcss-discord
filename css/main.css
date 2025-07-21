@@ -215,6 +215,7 @@ main > section {
 }
 .ita {
     width: 10%;
+    display: inline-block;
 }
 
 footer li {
@@ -235,4 +236,13 @@ h2 {
 }
 .logo-finale {
     margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15PX;
+    font-size: 24px;
+    padding-right: 30px ;
 }
