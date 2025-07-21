@@ -119,21 +119,22 @@ h1 {
 }
 
 .box-pubblicità {
-    width: 40% ;
+    width: 30% ;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
         /* debug */
-    background-color: blue;
+/*     background-color: blue;
     height: 350px;
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .box-img { 
     display: flex;
     flex-basis: 30%;
-    
-    /* debug */
-    background-color: rgb(216, 129, 194);
     height: 350px;
-    border-style: dashed;
 }
 
 
