@@ -9,6 +9,8 @@
 /* Parte iniziale / header */
 
 header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     
     
 }
@@ -17,42 +19,69 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 13px;
     /*  Debug */
-    background-color: rgb(98, 235, 212);
-    height: 55px;
+/*     background-color: rgb(98, 235, 212);
+    height: 42px; */
     
 }
 
 .logo-intestazione > div {
     display: flex;
-    width: 20%;
+    justify-content: space-around;
+    width: 18%;
     /* Debug */
-    background-color: rgb(182, 119, 24);   
-    height: 25px; 
-    border-style: dashed;
+/*     background-color: rgb(182, 119, 24);   
+    height: 38px; 
+    border-style: dashed; */
 
 }
 
 #login {
     padding-left: 100px;
-    width: 30%;
+    width: 32%;
+}
+.botton-accedi {
+    text-align: center;
+    border: 1 solid white;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding-left: 4px;
+    padding-right: 4px ;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #link {
-    width: 30%;
+    width: 45%;
      /* Debug */
-    background-color: rgb(182, 119, 24);   
-    height: 25px; 
-    border-style: dashed; 
+/*     background-color: rgb(182, 119, 24);   
+    height: 38px; 
+    border-style: dashed;  */
 }
 
+.link-intestazione {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
 .schermata-header {
-        /*  Debug */
-    background-color: rgb(76, 0, 255);
-    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 350px;
+    /*  Debug */
+/* background-color: rgb(76, 0, 255); */
 
 }
 .corpo-header {
