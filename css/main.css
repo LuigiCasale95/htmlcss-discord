@@ -1,0 +1,177 @@
+/* Regole base css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Parte iniziale / header */
+
+header {
+    
+    
+}
+
+.logo-intestazione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  Debug */
+    background-color: rgb(98, 235, 212);
+    height: 55px;
+    
+}
+
+.logo-intestazione > div {
+    display: flex;
+    width: 20%;
+    /* Debug */
+    background-color: rgb(182, 119, 24);   
+    height: 25px; 
+    border-style: dashed;
+
+}
+
+#login {
+    padding-left: 100px;
+    width: 30%;
+}
+
+#link {
+    width: 30%;
+     /* Debug */
+    background-color: rgb(182, 119, 24);   
+    height: 25px; 
+    border-style: dashed; 
+}
+
+.schermata-header {
+        /*  Debug */
+    background-color: rgb(76, 0, 255);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.corpo-header {
+    width: 55%;
+    
+    /* Debug */
+    height: 285px;
+    background-color: blueviolet;
+    border-style: dashed;
+}
+
+/*Parte centrale / Main  */
+
+.sezione-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Debug */
+    height: 450px;
+    background-color: white;
+}
+
+.box-pubblicità {
+    width: 40% ;
+        /* debug */
+    background-color: blue;
+    height: 350px;
+    border-style: dashed;
+}
+
+.box-img { 
+    display: flex;
+    flex-basis: 30%;
+    
+    /* debug */
+    background-color: rgb(216, 129, 194);
+    height: 350px;
+    border-style: dashed;
+}
+
+
+.grigio {
+    display: flex;
+    flex-direction: row-reverse;
+    /* debug */
+    background-color: darkgray;
+   
+}
+
+ /* Fase conclusiva main */
+#conclusione-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Debug */
+    background-color: darkgray;
+    height: 550px;
+}
+.testo-conclusivo-main {
+    width: 70%;
+    /* debug */
+    background-color: green;
+    height: 480px;
+    border-style: dashed;
+
+}
+/* Finale della pagina / Footer */
+.finale-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: black;
+    height: 400px;
+}
+
+.riquadro-social {
+    width: 21%;
+    /* debug */
+    height: 360px;
+    background-color: darkorchid;
+    border-style: dashed;
+}
+
+.info-utili {
+    width: calc(49% / 4);
+    /* debug */
+    height: 360px;
+    background-color: rgb(204, 124, 50);
+    border-style: dashed;
+
+}
+.fondo-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* debug */
+    background-color: black;
+    height: 65px;
+    margin-top: 2px;
+}
+#piè-di-pagina {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* debug */
+    height: 47px;
+    background-color: aquamarine;
+    border-style: dashed;
+
+}
+.bottoni-finali {
+    text-align: center;
+    /* debug */
+    background-color: rgb(134, 94, 94);
+    height: 25px;
+    border-style: dashed;
+
+}
