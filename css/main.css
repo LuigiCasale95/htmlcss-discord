@@ -16,9 +16,7 @@ body{
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    color: white;
-    
-    
+    color: white; 
 }
 
 .logo-intestazione {
@@ -34,13 +32,13 @@ header {
     justify-content: space-around;
     width: 18%;
     padding: 10px 0;
-
 }
 
 #login {
     padding-left: 100px;
     width: 32%;
 }
+
 .botton-accedi {
     text-align: center;
     background-color: white;
@@ -51,6 +49,7 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+
 #testo-intro {
     margin-top: 20px;
 }
@@ -60,8 +59,7 @@ header {
     background-color: white;
     color: black;
     border-radius: 20px;
-    padding: 6px;
-
+    padding: 9px;
 }
 
 #link {
@@ -245,4 +243,8 @@ h2 {
     margin-top: 15PX;
     font-size: 24px;
     padding-right: 30px ;
+}
+.nero {
+    background-color: #23272A;
+    color: white;
 }
